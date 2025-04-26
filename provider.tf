@@ -6,8 +6,6 @@ provider "aws" {
       region              = var.aws_region
       app-id              = var.app_id
       environmentironment = var.environment
-      name                = var.name
-      mail                = var.mail
     }
   }
 }
